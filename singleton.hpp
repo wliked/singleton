@@ -33,5 +33,5 @@ private:
         }
     }
     static GarbadeCollector gc; // when OS clean gc, OS will call gc's destructor function,so memory pointed by "instance" will be deleted
-}
+};
 #endif
